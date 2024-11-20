@@ -19,7 +19,7 @@ Having worked many years on HTTP frameworks, I really think that we can do
 something better in SIP.
 
 ## How
-It is built in Rust because that's a low lever, thread safe, performant language
+It is built in Rust because that's a low level, thread safe, performant language
 that I know well. It's built based on traits+generics, so that anything can be
 overriden at your will.
 
@@ -30,10 +30,10 @@ extension or service that is needed (like Registrar, Auth, Push notifications
 
 ## Progress
 - [x] SIP general purpose library/parser with types
-- [ ] SDP general purpose library/parser with type
+- [ ] SDP general purpose library/parser with types
 - [x] Transport layer
-  - [x] Udp transport
-  - [ ] Tcp transport
+  - [x] UDP transport
+  - [ ] TCP transport
   - [ ] WS transport
 - [x] Transaction layer
   - [x] Invite transaction + impl
